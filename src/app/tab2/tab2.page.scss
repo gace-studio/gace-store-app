@@ -1,1 +1,19 @@
-
+.product {
+    padding: 4px;
+  background-color: white;
+  h4 {
+    width: calc(100vw / 2 - 46px); 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 8px;
+    font-size: 0.85em;
+    margin: 0;
+  }
+  .price {
+    padding: 0px 8px 8px 8px;
+    margin: 0;
+    color: orangered;
+    font-size: 0.85em;
+  }
+}

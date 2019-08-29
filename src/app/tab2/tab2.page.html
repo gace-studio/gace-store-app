@@ -1,9 +1,80 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab Two
-    </ion-title>
+    <ion-searchbar showCancelButton="focus" cancelButtonText="Huỷ"></ion-searchbar>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="funnel"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed" >
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  <ion-grid>
+    <ion-row size="2">
+      <ion-col>
+        <div class="product" [routerLink]="['/tabs/tab2/product']">
+          <img src="./assets/product.jpg" alt="">
+          <h4>Flydigi Wasp 2</h4>
+          <p class="price">
+            990.000đ
+          </p>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="product">
+          <img src="./assets/cover.png" alt="">
+          <h4>Flydigi Wasp 2</h4>
+          <p class="price">
+            990.000đ
+          </p>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row size="2">
+      <ion-col>
+        <div class="product">
+          <img src="./assets/product.jpg" alt="">
+          <h4>Flydigi Wasp 2</h4>
+          <p class="price">
+            990.000đ
+          </p>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="product">
+          <img src="./assets/cover.png" alt="">
+          <h4>Flydigi Wasp 2</h4>
+          <p class="price">
+            990.000đ
+          </p>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row size="2">
+      <ion-col>
+        <div class="product">
+          <img src="./assets/product.jpg" alt="">
+          <h4>Flydigi Wasp 2</h4>
+          <p class="price">
+            990.000đ
+          </p>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="product">
+          <img src="./assets/cover.png" alt="">
+          <h4>Flydigi Wasp 2</h4>
+          <p class="price">
+            990.000đ
+          </p>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

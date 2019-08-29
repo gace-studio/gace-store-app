@@ -1,0 +1,22 @@
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+    .image {
+        width: 25%;
+        padding: 4px;
+    }
+    .add {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        outline:dashed;
+        outline-offset:-8px;    
+        outline-color: orangered;
+    }
+
+}
+
+.text-right {
+    text-align: right !important;
+}

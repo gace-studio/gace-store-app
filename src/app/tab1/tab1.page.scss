@@ -1,15 +1,50 @@
 .order-item {
+  margin-bottom: 8px;
+  background-color: white;
+  font-size: 0.85rem;
   ion-label {
-    .price {
-      border-bottom: 1px solid orangered;
-      padding-bottom: 6px;
-      color: orangered;
-      text-align: right;
-      .lbl {
-        color: black;
-        display: inline-block;
+    .customer {
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 0px 8px 0px;
+      border-bottom: 1px solid rgba(158, 144, 139, 0.3);
+    }
+    .bill {
+      padding: 8px 0px 8px 0px;
+      border-bottom: 1px solid rgba(158, 144, 139, 0.3);
+      display: flex;
+      img {
+        width: 60px;
+        height: 60px;
+      }
+      .cover {
+        padding: 2px; 
+        border: 1px solid rgba(255, 164, 132, 0.3);
         margin-right: 8px;
       }
+      .bill-info {
+        flex: 1;
+      }
+      .price {
+        color: orangered;
+        text-align: right;
+        .lbl {
+          color: black;
+          display: inline-block;
+          margin-right: 8px;
+        }
+      }
+    }
+  
+    .shipping-status {
+      font-size: 0.85rem;
+      padding: 8px 0px 8px 0px;
+      border-bottom: 1px solid rgba(158, 144, 139, 0.3);
+    }
+    .order-id {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0px 0px 0px;
     }
   }
 }
